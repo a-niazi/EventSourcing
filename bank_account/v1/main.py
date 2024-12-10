@@ -1,6 +1,5 @@
-from aggregates.account import Account
-from infrastructure.event_store import EventStore
-from events.account_events import DepositMade, WithdrawalMade, AccountBlocked
+from bank_account.v1.aggregates.account import Account
+from bank_account.v1.infrastructure.event_store import EventStore
 
 # ایجاد EventStore
 event_store = EventStore()
