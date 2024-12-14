@@ -1,0 +1,2 @@
+class EventSourcingException(Exception):
+    pass
