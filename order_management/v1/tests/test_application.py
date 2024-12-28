@@ -1,5 +1,5 @@
 import unittest
-from OrderManagement.v1.application.order_app import OrderApplication
+from order_management.v1.application.order_app import OrderApplication
 
 class TestOrderApplication(unittest.TestCase):
     def setUp(self):

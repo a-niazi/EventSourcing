@@ -1,5 +1,5 @@
 import unittest
-from OrderManagement.v1.aggregates.order import Order
+from order_management.v1.aggregates.order import Order
 
 class TestOrderAggregate(unittest.TestCase):
     def test_add_item(self):
