@@ -17,7 +17,7 @@ class Order(Aggregate):
 
 	def add_item(self, item_name: str, price: float, quantity: int):
 		if quantity <= 0 or price <= 0:
-			raise InvalidOperationError("قیمت و تعداد باید مثبت باشند.")
+			raise InvalidOperationError("Price and quantity must be positive.")
 		self._add_item(item_name, price, quantity)
 
 	#@event('TrickAdded')
