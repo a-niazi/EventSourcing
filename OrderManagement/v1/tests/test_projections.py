@@ -1,6 +1,6 @@
 import unittest
-from OrderManagement.projections.order_projection import OrderProjection
-from OrderManagement.aggregates.order import Order
+from OrderManagement.v1.projections.order_projection import OrderProjection
+from OrderManagement.v1.aggregates.order import Order
 
 
 class TestOrderProjection(unittest.TestCase):
